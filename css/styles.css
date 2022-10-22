@@ -25,7 +25,7 @@
   --bg-secondary-color: #2f303a;
   --bg-third-color: #2196f3;
   --bg-features-color: #f5f5f5;
-  --bg-team-color: #f5f4fa;
+  --bg-fourth-color: #f5f4fa;
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
   --headers-text-color: #212121;
@@ -107,7 +107,7 @@ a {
 }
 
 .section.team {
-  background-color: var(--bg-team-color);
+  background-color: var(--bg-fourth-color);
 }
 /* Footer */
 
@@ -127,19 +127,29 @@ a {
   color: var(--bg-primary-color);
 }
 
-.address-email,
-.address-phone {
+.contacts {
   color: var(--footer-address-color);
 }
 
-.address-email:hover,
-.address-email:focus,
-.address-phone:hover,
-.address-phone:focus,
-.address-house:hover,
-.address-house:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--hover-focus-color);
 }
 
 /* Portfolio */
 /* Фільтр на сторінці Портфоліо виконаний списком кнопок, кожній з яких заданий атрибут type="button". */
+
+.filters-buttons > li > button {
+  background-color: var(--bg-fourth-color);
+  color: var(--headers-text-color);
+}
+
+.filters-buttons > li > button:hover,
+.filters-buttons > li > button:focus {
+  background-color: var(--bg-third-color);
+  color: var(--secondary-text-color);
+}
+
+.section-description {
+  color: var(--primary-text-color);
+}
