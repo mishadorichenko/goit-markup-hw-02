@@ -40,6 +40,10 @@
 body {
   background-color: var(--bg-primary-color);
   color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -51,15 +55,21 @@ a {
 }
 
 /* Logo */
-.logo-header {
+.logo {
   color: var(--logo-main-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.logo-header span {
+.header .logo span {
   color: var(--logo-header-color);
 }
 
 /* Header */
+
 .site-nav .link {
   color: var(--headers-text-color);
 }
@@ -115,11 +125,11 @@ a {
   background-color: var(--bg-secondary-color);
 }
 
-.logo-footer {
+.footer .logo {
   color: var(--logo-main-color);
 }
 
-.logo-footer span {
+.footer .logo span {
   color: var(--logo-footer-color);
 }
 
