@@ -51,6 +51,9 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
 .list {
   list-style: none;
 }
