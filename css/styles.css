@@ -40,7 +40,8 @@
 body {
   background-color: var(--bg-primary-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -74,6 +75,12 @@ a {
   color: var(--headers-text-color);
 }
 
+.header .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .site-contacts .link {
   color: var(--primary-text-color);
 }
@@ -95,6 +102,15 @@ a {
   background-color: var(--bg-secondary-color);
 }
 
+.caption-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .caption-header,
 .caption-button {
   color: var(--secondary-text-color);
@@ -102,6 +118,12 @@ a {
 
 .caption-button {
   background-color: var(--bg-third-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .caption-button:active {
@@ -116,8 +138,35 @@ a {
   background-color: var(--bg-features-color);
 }
 
+.feature-name {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .section.team {
   background-color: var(--bg-fourth-color);
+}
+
+.section.features > h2,
+.section.team > h2.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section.team .section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.occupation {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /* Footer */
 
@@ -133,12 +182,12 @@ a {
   color: var(--logo-footer-color);
 }
 
-.address-house {
-  color: var(--bg-primary-color);
-}
-
 .contacts {
   color: var(--footer-address-color);
+}
+
+.address-house {
+  color: var(--bg-primary-color);
 }
 
 .contacts:hover,
@@ -152,6 +201,13 @@ a {
 .filters-buttons > li > button {
   background-color: var(--bg-fourth-color);
   color: var(--headers-text-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  /* letter-spacing: 0.03em; */
 }
 
 .filters-buttons > li > button:hover,
@@ -160,6 +216,17 @@ a {
   color: var(--secondary-text-color);
 }
 
+.projects .list .section-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 .section-description {
   color: var(--primary-text-color);
+}
+
+.projects .list .section-description {
+  font-size: 16px;
+  line-height: 1.88;
 }
